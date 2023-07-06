@@ -1,0 +1,56 @@
+body {
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 400px;
+    margin: auto;
+    
+
+}
+
+.grid{
+    display: flex;
+    background-color: rgb(170, 228, 247);  
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+    border: 3px solid rgb(48, 4, 36);
+    /* opacity: 0.7; */
+    
+}
+
+
+.grid div {
+    height: 30px;
+    width: 30px;
+}
+
+.invader {
+    background-image: url(../img/cloud.png);
+    background-size: 120%;
+    /* background-color: rgba(186, 53, 219, 0.664); */
+    border-radius: 20px;
+}
+
+.shooter {
+    background-image: url(../img/bird.png);
+    background-size: 100%;
+    /* background-color: orange; */
+}
+
+.laser {
+    background-image: url(../img/note.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* background-color: red; */
+}
+
+.boom {
+    background-image: url(../img/boom.png);
+    background-position: center;
+    background-size:100%;
+}
+
+

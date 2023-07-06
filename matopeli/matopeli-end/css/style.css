@@ -1,0 +1,38 @@
+body {
+  background-image: url("../img/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  margin: auto;
+  width: 200px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  background-color: lightgoldenrodyellow;
+}
+
+.grid div{
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  /*background-color: darkgoldenrod;*/
+  background-image: url("../img/skin.jpg");
+  background-color: aqua;
+  background-size: 700%;
+  border-radius: 20%;
+}
+
+.apple {
+  background-image: url("../img/red.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

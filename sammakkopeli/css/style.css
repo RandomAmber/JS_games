@@ -1,0 +1,63 @@
+body {
+    background-image: url("../img/swamp.jpg");
+    background-size: 100%;
+    width: 200px;
+    margin: auto;
+
+}
+
+.grid{
+    display: flex;
+    background-color: rgb(220, 236, 220);
+    background-position: center;
+    flex-wrap: wrap;
+    height: 270px;
+    width: 270px;
+    border: 1px solid rgb(48, 4, 4);
+}
+
+.grid div {
+    height: 30px;
+    width: 30px;
+}
+
+.ending-block {
+    /*background-color: yellowgreen;*/
+    background-image: url("../img/lily.png");
+    background-size: 100%;
+}
+
+.starting-block {
+    background-image: url("../img/lily.png");
+    background-size: 100%;
+}
+
+.l1, .l2, .l3 {
+    background-image: url("../img/log.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: brown;
+}
+
+.l4, .l5, .lf2, .lf3 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-image: url("../img/car.png");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c2, .c3 {
+    background-image: url("../img/road.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.frog {
+    /* background-color: rgb(156, 189, 156); */
+    background-image: url("../img/frog.png");
+    background-size: 100%;
+
+}

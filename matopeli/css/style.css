@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    width: 200px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    /*background-color: darkgoldenrod;*/
+    background: linear-gradient(-45deg, #d0775b, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 200% 200%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+}
+
+.apple {
+    background-color: greenyellow;
+
+}
